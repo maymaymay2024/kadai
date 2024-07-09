@@ -40,9 +40,4 @@ if st.button('Go'):
             response = requests.get(selected_image_url)
             img = Image.open(BytesIO(response.content))
 
-            # 画像を表示
-            st.image(img, caption=selected_image_url.split('/')[-1])
-        else:
-            st.error('指定されたフォルダに画像ファイルがありません。')
-    else:
-        st.error('フォルダの内容を取得できませんでした。URLを確認してください。')
+            
