@@ -14,7 +14,7 @@ option = st.selectbox(
 )
 
 # GitHubリポジトリのベースURL
-api_base_url = 'https://api.github.com/repos/maymaymay2024/kadai/contents/'
+api_base_url = 'https://api.github.com/repos/maymaymay2024/'
 
 # Goボタンが押されたとき
 if st.button('Go'):
