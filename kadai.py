@@ -14,7 +14,7 @@ option = st.selectbox(
 )
 
 # GitHubリポジトリのベースURL
-api_base_url = 'https://github.com/maymaymay2024/kadai/'
+api_base_url = 'https://api.github.com/repos/maymaymay2024/kadai/contents/'
 
 # Goボタンが押されたとき
 if st.button('Go'):
@@ -38,11 +38,14 @@ if st.button('Go'):
 
             # 画像をダウンロード
             response = requests.get(selected_image_url)
-            img = Image.open(BytesIO(response.content))
+            if response.status_code == 200:
+                img = Image.open(BytesIO(response.content))
 
-            # 画像を表示
-            st.image(img, caption=selected_image_url.split('/')[-1])
+                # 画像を表示
+                st.image(img, caption=selected_image_url.split('/')[-1])
+            else:
+                st.error('画像のダウンロードに失敗しました。')
         else:
             st.error('指定されたフォルダに画像ファイルがありません。')
     else:
-        st.error('フォルダの内容を取得できませんでした。URLを確認してください。')
+        st.error(f'フォルダの内容を取得できませんでした。URLを確認してください。 (ステータスコード: {response.status_code})')
