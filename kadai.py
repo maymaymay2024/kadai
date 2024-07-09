@@ -1,8 +1,7 @@
 import streamlit as st
 import random
-import requests
+import os
 from PIL import Image
-from io import BytesIO
 
 # タイトルの設定
 st.title('祈願お守り画像')
