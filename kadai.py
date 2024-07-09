@@ -20,11 +20,11 @@ base_url = 'https://github.com/maymaymay2024/kadai/tree/main/'
 if st.button('Go'):
     # 選択された祈願に対応する画像フォルダを決定
     if option == '安産祈願':
-        folder_url = base_url + '安産祈願/'
+        folder_url = 'https://github.com/maymaymay2024/kadai/tree/main/安産祈願/'
     elif option == '金運上昇祈願':
-        folder_url = base_url + '金運上昇祈願/'
+        folder_url = 'https://github.com/maymaymay2024/kadai/tree/main/金運上昇祈願/'
     else:
-        folder_url = base_url + '長寿祈願/'
+        folder_url = 'https://github.com/maymaymay2024/kadai/tree/main/長寿祈願/'
 
 # ランダムに画像を選択
     selected_image = random.choice(images)
