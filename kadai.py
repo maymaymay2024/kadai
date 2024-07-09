@@ -74,6 +74,6 @@ if st.button('Go'):
             # 画像を表示
             st.image(img, caption=selected_image_url.split('/')[-1])
         else:
-            st.error('画像のダウンロードに失敗しました。')
+            st.error(f'画像のダウンロードに失敗しました。ステータスコード: {response.status_code}')
     else:
         st.error('指定された祈願の画像が見つかりません。')
