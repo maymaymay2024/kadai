@@ -30,15 +30,12 @@ if st.button('Go'):
     selected_image = random.choice(images)
     image_url = folder_url + selected_image
 
-　　# 画像をダウンロード
+    # 画像をダウンロード
     response = requests.get(image_url)
     img = Image.open(BytesIO(response.content))
 
-　　# 画像を表示
-    img = Image.open(image_path)
+    # 画像を表示
     st.image(img, caption=selected_image)
-
-
 
     
 
