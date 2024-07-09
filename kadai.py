@@ -20,11 +20,12 @@ base_url = 'https://github.com/maymaymay2024/kadai/edit/main/kadai.py'
 if st.button('Go'):
     # 選択された祈願に対応する画像フォルダを決定
     if option == '安産祈願':
-        folder_path = os.path.join(base_path, '安産祈願')
+        folder_url = base_url + '安産祈願/'
     elif option == '金運上昇祈願':
-        folder_path = os.path.join(base_path, '金運上昇祈願')
+        folder_url = base_url + '金運上昇祈願/'
     else:
-        folder_path = os.path.join(base_path, '長寿祈願')
+        folder_url = base_url + '長寿祈願/'
+
 
     # フォルダ内の画像ファイルを取得
     images = os.listdir(folder_path)
