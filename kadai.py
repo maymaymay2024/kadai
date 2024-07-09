@@ -48,7 +48,7 @@ image_urls = {
         'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_2973.JPG',
         'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_3031.JPG',
         'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_3038.JPG',
-        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_3030.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_3039.JPG',
         'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_8483.JPG',
         'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_8484.JPG',
         'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_8485.JPG',
