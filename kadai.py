@@ -12,8 +12,9 @@ option = st.selectbox(
     ('安産祈願', '金運上昇祈願', '長寿祈願')
 )
 
-# 画像フォルダのベースパス（Googleドライブ内のパス）
-base_path = '/content/drive/MyDrive/ikoma/kadai/'
+# GitHubリポジトリのベースURL
+base_url = 'https://github.com/maymaymay2024/kadai/edit/main/kadai.py/repository/branch/folder_path/'
+
 
 # Goボタンが押されたとき
 if st.button('Go'):
