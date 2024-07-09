@@ -26,16 +26,14 @@ if st.button('Go'):
     else:
         folder_url = 'https://github.com/maymaymay2024/kadai/tree/main/長寿祈願/'
 
-# ランダムに画像を選択
-    selected_image = random.choice(images)
-    image_url = folder_url + selected_image
 
-    # 画像をダウンロード
-    response = requests.get(image_url)
-    img = Image.open(BytesIO(response.content))
+# フォルダ内の画像ファイルを取得
+    images = os.listdir(folder_path)
+    selected_image = random.choice(images)
+    image_path = os.path.join(folder_path, selected_image)
 
     # 画像を表示
-    st.image(img, caption=selected_image)
-
+    img = Image.open(image_path)
+    st.image(img, caption=selected_image) 
     
 
