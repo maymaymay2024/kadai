@@ -14,27 +14,35 @@ option = st.selectbox(
 )
 
 # GitHubリポジトリのベースURL
-base_url = 'https://github.com/maymaymay2024/kadai/tree/main/'
-
+api_base_url = 'https://api.github.com/repos/maymaymay2024/kadai/contents/'
 
 # Goボタンが押されたとき
 if st.button('Go'):
     # 選択された祈願に対応する画像フォルダを決定
     if option == '安産祈願':
-        folder_url = 'https://github.com/maymaymay2024/kadai/tree/main/安産祈願/'
+        folder_url = api_base_url + '安産祈願'
     elif option == '金運上昇祈願':
-        folder_url = 'https://github.com/maymaymay2024/kadai/tree/main/金運上昇祈願/'
+        folder_url = api_base_url + '金運上昇祈願'
     else:
-        folder_url = 'https://github.com/maymaymay2024/kadai/tree/main/長寿祈願/'
+        folder_url = api_base_url + '長寿祈願'
 
+    # GitHub APIを使用してフォルダ内の画像ファイルリストを取得
+    response = requests.get(folder_url)
+    if response.status_code == 200:
+        files = response.json()
+        images = [file['download_url'] for file in files if file['name'].lower().endswith(('.png', '.jpg', '.jpeg'))]
 
-# ランダムに画像を選択
-    selected_image = random.choice(images)
-    image_url = folder_url + selected_image
+        # ランダムに画像を選択
+        if images:
+            selected_image_url = random.choice(images)
 
-    # 画像をダウンロード
-    response = requests.get(image_url)
-    img = Image.open(BytesIO(response.content))
+            # 画像をダウンロード
+            response = requests.get(selected_image_url)
+            img = Image.open(BytesIO(response.content))
 
-    # 画像を表示
-    st.image(img, caption=selected_image)
+            # 画像を表示
+            st.image(img, caption=selected_image_url.split('/')[-1])
+        else:
+            st.error('指定されたフォルダに画像ファイルがありません。')
+    else:
+        st.error('フォルダの内容を取得できませんでした。URLを確認してください。')
