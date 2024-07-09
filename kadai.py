@@ -16,19 +16,19 @@ option = st.selectbox(
 # 各祈願の画像URLリスト
 image_urls = {
     '安産祈願': [
-        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/安産祈願/imageIMG_8470.JPG',
-        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/安産祈願/imageIMG_8471.JPG',
-        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/安産祈願/imageIMG_8472.JPG'
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/安産祈願/IMG_8470.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/安産祈願/IMG_8471.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/安産祈願/IMG_8472.JPG'
     ],
     '金運上昇祈願': [
-        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/金運上昇祈願/imageIMG_2630.JPG',
-        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/金運上昇祈願/imageIMG_2633.JPG',
-        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/金運上昇祈願/imageIMG_2644.JPG'
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/金運上昇祈願/IMG_2630.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/金運上昇祈願/IMG_2633.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/金運上昇祈願/IMG_2644.JPG'
     ],
     '長寿祈願': [
-        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/imageIMG_2928.JPG',
-        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/imageIMG_2933.JPG',
-        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/imageIMG_2936.JPG'
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_2928.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_2933.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_2936.JPG'
     ]
 }
 
