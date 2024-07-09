@@ -1,7 +1,8 @@
 import streamlit as st
 import random
-import os
+import requests
 from PIL import Image
+from io import BytesIO
 
 # タイトルの設定
 st.title('祈願お守り画像')
@@ -26,13 +27,15 @@ if st.button('Go'):
     else:
         folder_url = base_url + '長寿祈願/'
 
-
-    # フォルダ内の画像ファイルを取得
-    images = os.listdir(folder_path)
+# ランダムに画像を選択
     selected_image = random.choice(images)
-    image_path = os.path.join(folder_path, selected_image)
+    image_url = folder_url + selected_image
 
-    # 画像を表示
+　　# 画像をダウンロード
+    response = requests.get(image_url)
+    img = Image.open(BytesIO(response.content))
+
+　　# 画像を表示
     img = Image.open(image_path)
     st.image(img, caption=selected_image)
 
