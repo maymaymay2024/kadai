@@ -13,7 +13,7 @@ option = st.selectbox(
 )
 
 # GitHubリポジトリのベースURL
-base_url = 'https://github.com/maymaymay2024/kadai'
+base_url = 'https://github.com/maymaymay2024/kadai/tree/main/'
 
 
 # Goボタンが押されたとき
