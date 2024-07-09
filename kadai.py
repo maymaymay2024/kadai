@@ -18,16 +18,41 @@ image_urls = {
     '安産祈願': [
         'https://raw.githubusercontent.com/maymaymay2024/kadai/main/安産祈願/IMG_8470.JPG',
         'https://raw.githubusercontent.com/maymaymay2024/kadai/main/安産祈願/IMG_8471.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/安産祈願/IMG_8487.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/安産祈願/IMG_8488.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/安産祈願/IMG_8489.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/安産祈願/IMG_8490.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/安産祈願/IMG_8491.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/安産祈願/IMG_8492.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/安産祈願/IMG_8493.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/安産祈願/IMG_8494.JPG',
         'https://raw.githubusercontent.com/maymaymay2024/kadai/main/安産祈願/IMG_8472.JPG'
     ],
     '金運上昇祈願': [
         'https://raw.githubusercontent.com/maymaymay2024/kadai/main/金運上昇祈願/IMG_2630.JPG',
         'https://raw.githubusercontent.com/maymaymay2024/kadai/main/金運上昇祈願/IMG_2633.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/金運上昇祈願/IMG_2647.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/金運上昇祈願/IMG_2650.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/金運上昇祈願/IMG_2654.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/金運上昇祈願/IMG_2659.JPG',
         'https://raw.githubusercontent.com/maymaymay2024/kadai/main/金運上昇祈願/IMG_2644.JPG'
     ],
     '長寿祈願': [
         'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_2928.JPG',
         'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_2933.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_2938.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_2939.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_2940.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_2944.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_2945.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_2973.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_3031.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_3038.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_3030.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_8483.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_8484.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_8485.JPG',
+        'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_8486.JPG',
         'https://raw.githubusercontent.com/maymaymay2024/kadai/main/長寿祈願/IMG_2936.JPG'
     ]
 }
